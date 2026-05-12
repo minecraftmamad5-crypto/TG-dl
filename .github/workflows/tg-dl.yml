@@ -250,7 +250,7 @@ jobs:
           echo "      و کد را در فیلد 'کد فعالسازی' وارد کنید"
           echo ""
           echo "========================================"
-          exit 1
+          exit 0
 
   # Main download job - runs only when activated
   tg-download:
@@ -286,7 +286,7 @@ jobs:
             echo "📌 برای دریافت کد جدید:"
             echo "   https://pay.avasam.ir/link/769601"
             echo ""
-            exit 1
+            exit 0
           fi
           echo "✅ فعالسازی معتبر است"
 
